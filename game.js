@@ -76,6 +76,8 @@ $(document).ready(function() {
             }
 
             // zdarzenie
+            //FIX! birdie falls outta map
+            
             if (xPos + bird.width >= pipe[i].x &&
                 xPos <= pipe[i].x + pipeUp.width &&
                 (yPos <= pipe[i].y + pipeUp.height ||
